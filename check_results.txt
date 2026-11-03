@@ -1,0 +1,25 @@
+Script started on 2026-11-03 05:34:24+00:00 [COMMAND="bash check.sh" TERM="linux" TTY="/dev/tty3" COLUMNS="160" LINES="50"]
+========================================
+       Nginx Configuration Checks
+========================================
+
+[PASS] Nginx configuration is valid
+[PASS] Nginx service is running
+[PASS] HTTP redirects to HTTPS
+[PASS] API endpoint is accessible over HTTPS
+[PASS] Both backend instances are reachable
+[PASS] Static page /docs/ is accessible
+[PASS] Second virtual host site2.local is accessible
+[PASS] Custom 404 page returns HTTP 404
+[PASS] Basic authentication is required for /admin/
+Enter the admin password: 
+[PASS] Admin authentication succeeds
+
+========================================
+           Test Results
+========================================
+Passed: 10
+Failed: 0
+All checks passed!
+
+Script done on 2026-11-03 05:34:27+00:00 [COMMAND_EXIT_CODE="0"]
